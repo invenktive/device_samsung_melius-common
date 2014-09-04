@@ -92,6 +92,7 @@ TARGET_VIDEO_PREVIEW_ALWAYS_MAX := true
 # Time services
 BOARD_USES_QC_TIME_SERVICES := true
 
+<<<<<<< HEAD
 # PowerHAL
 TARGET_POWERHAL_VARIANT := qcom
 
@@ -119,3 +120,7 @@ TW_INCLUDE_FB2PNG := true
 
 # Prevent greyish screen after screen timeout
 TW_NO_SCREEN_TIMEOUT := true
+
+# Custom RIL class
+BOARD_RIL_CLASS := ../../../device/samsung/melius-common/ril/
+
