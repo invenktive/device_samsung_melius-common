@@ -175,7 +175,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # RIL
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.telephony.ril_class=SamsungMSM8930RIL
+    ro.telephony.ril_class=MeliusRIL
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.product.locale.language=en \
