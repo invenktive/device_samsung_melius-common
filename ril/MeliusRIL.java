@@ -31,11 +31,11 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 /**
- * RIL customization for Galaxy S4 Mini (GSM) devices
+ * RIL customization for Galaxy Mega 6.3 (GSM) devices
  *
- * {@hide}
+ * {@hide} 
  */
-public class meliusRIL extends RIL {
+public class MeliusRIL extends RIL {
 
     private static final int RIL_REQUEST_DIAL_EMERGENCY = 10016;
     private static final int RIL_UNSOL_RESPONSE_IMS_NETWORK_STATE_CHANGED = 1036;
@@ -44,7 +44,7 @@ public class meliusRIL extends RIL {
     private static final int RIL_UNSOL_WB_AMR_STATE = 11017;
     private static final int RIL_UNSOL_RESPONSE_HANDOVER = 11021;
 
-    public meliusRIL(Context context, int networkMode, int cdmaSubscription) {
+    public MeliusRIL(Context context, int networkMode, int cdmaSubscription) {
         super(context, networkMode, cdmaSubscription);
         mQANElements = 6;
     }
